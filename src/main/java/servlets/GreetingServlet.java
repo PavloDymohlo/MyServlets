@@ -1,3 +1,5 @@
+package servlets;
+
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
@@ -11,7 +13,7 @@ public class GreetingServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String name = req.getParameter("name");
 
-            resp.getWriter().write("Hello " + name + "!");
+        resp.getWriter().write("Hello " + name + "!");
 
     }
 }

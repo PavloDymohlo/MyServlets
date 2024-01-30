@@ -1,3 +1,5 @@
+package servlets;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
